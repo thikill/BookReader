@@ -19,14 +19,21 @@ import android.app.ActivityManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
+import android.provider.Settings;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.justwayward.reader.R;
 import com.justwayward.reader.base.BaseRVFragment;
@@ -156,7 +163,27 @@ public class RecommendFragment extends BaseRVFragment<RecommendPresenter, Recomm
     public void onItemClick(int position) {
         if (isVisible(llBatchManagement)) //批量管理时，屏蔽点击事件
             return;
+        //checkSystemWritePermission();
         ReadActivity.startActivity(activity, mAdapter.getItem(position), mAdapter.getItem(position).isFromSD);
+    }
+
+
+
+    private boolean checkSystemWritePermission() {
+        boolean retVal = true;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            retVal = Settings.System.canWrite(mContext);
+            Log.d("ads", "Can Write Settings: " + retVal);
+            if(retVal){
+                Toast.makeText(mContext, "Write allowed :-)", Toast.LENGTH_LONG).show();
+            }else{
+                Toast.makeText(mContext, "Write not allowed :-(", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS);
+                intent.setData(Uri.parse("package:" + mContext.getPackageName()));
+                startActivity(intent);
+            }
+        }
+        return retVal;
     }
 
     @Override
