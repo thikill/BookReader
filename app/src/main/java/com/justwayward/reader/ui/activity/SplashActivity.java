@@ -66,8 +66,6 @@ public class SplashActivity extends AppCompatActivity {
             mPermissionsChecker = new PermissionsChecker(this);
             requestPermission();
         }
-
-
     }
 
 
@@ -89,7 +87,17 @@ public class SplashActivity extends AppCompatActivity {
                 ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSIONS_REQUEST_STORAGE);
 
             }
+        } else {
+                tvSkip.postDelayed(runnable, 2000);
+
+                tvSkip.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        goHome();
+                    }
+                });
         }
+
     }
 
 
