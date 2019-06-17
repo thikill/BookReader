@@ -73,7 +73,7 @@ public class ScanLocalBookActivity extends BaseActivity implements RecyclerArray
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("扫描本地书籍");
+        mCommonToolbar.setTitle("Scan local books");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 
@@ -157,10 +157,10 @@ public class ScanLocalBookActivity extends BaseActivity implements RecyclerArray
         if (books.path.endsWith(Constant.SUFFIX_TXT)) {
             // TXT
             new AlertDialog.Builder(this)
-                    .setTitle("提示")
+                    .setTitle("prompt")
                     .setMessage(String.format(getString(
                             R.string.book_detail_is_joined_the_book_shelf), books.title))
-                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    .setPositiveButton("determine", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             // 拷贝到缓存目录
@@ -173,11 +173,11 @@ public class ScanLocalBookActivity extends BaseActivity implements RecyclerArray
                                 // 通知
                                 EventManager.refreshCollectionList();
                             } else {
-                                mRecyclerView.showTipViewAndDelayClose("书籍已存在");
+                                mRecyclerView.showTipViewAndDelayClose("Books already exist");
                             }
                             dialog.dismiss();
                         }
-                    }).setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                    }).setNegativeButton("cancel", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();

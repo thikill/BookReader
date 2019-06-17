@@ -39,41 +39,41 @@ public abstract class BaseCommuniteActivity extends BaseActivity implements Sele
 
     protected List<List<String>> list1 = new ArrayList<List<String>>() {{
         add(new ArrayList<String>() {{
-            add("全部");
-            add("精品");
+            add("All");
+            add("Boutique");
         }});
         add(new ArrayList<String>() {{
-            add("默认排序");
-            add("最新发布");
-            add("最多评论");
+            add("Default sort");
+            add("Latest release");
+            add("Most comments");
         }});
     }};
 
     protected List<List<String>> list2 = new ArrayList<List<String>>() {{
         add(new ArrayList<String>() {{
-            add("全部");
-            add("精品");
+            add("All");
+            add("Boutique");
         }});
         add(new ArrayList<String>() {{
-            add("全部类型");
-            add("玄幻奇幻");
-            add("武侠仙侠");
-            add("都市异能");
-            add("历史军事");
-            add("游戏竞技");
-            add("科幻灵异");
-            add("穿越架空");
-            add("豪门总裁");
-            add("现代言情");
-            add("古代言情");
-            add("幻想言情");
-            add("耽美同人");
+            add("All types");
+            add("Fantasy fantasy");
+            add("Martial arts");
+            add("Urban power");
+            add("Historical military");
+            add("Game competition");
+            add("Science fiction");
+            add("Crossing overhead");
+            add("President of the giants");
+            add("Modern romance");
+            add("Ancient romance");
+            add("Fantasy romance");
+            add("Amami Dojin");
         }});
         add(new ArrayList<String>() {{
-            add("默认排序");
-            add("最新发布");
-            add("最多评论");
-            add("最有用的");
+            add("Default sort");
+            add("Latest release");
+            add("Most comments");
+            add("Most useful");
         }});
     }};
 

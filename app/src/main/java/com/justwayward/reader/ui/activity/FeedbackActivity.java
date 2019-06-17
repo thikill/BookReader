@@ -45,7 +45,7 @@ public class FeedbackActivity extends BaseActivity {
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("反馈建议");
+        mCommonToolbar.setTitle("feedback");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 

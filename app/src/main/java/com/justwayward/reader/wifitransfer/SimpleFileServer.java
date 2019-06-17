@@ -84,7 +84,7 @@ public class SimpleFileServer extends NanoHTTPD {
                 uri = new String(uri.getBytes("ISO-8859-1"), "UTF-8");
                 LogUtils.d("uri= " + uri);
             } catch (UnsupportedEncodingException e) {
-                LogUtils.w("URL参数编码转换错误：" + e.toString());
+                LogUtils.w("URL parameter encoding conversion error：" + e.toString());
             }
 
             //return new Response(HtmlConst.HTML_STRING);

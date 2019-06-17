@@ -31,12 +31,12 @@ public class FormatUtils {
     private static final long ONE_DAY = 86400000L;
     private static final long ONE_WEEK = 604800000L;
 
-    private static final String ONE_SECOND_AGO = "秒前";
-    private static final String ONE_MINUTE_AGO = "分钟前";
-    private static final String ONE_HOUR_AGO = "小时前";
-    private static final String ONE_DAY_AGO = "天前";
-    private static final String ONE_MONTH_AGO = "月前";
-    private static final String ONE_YEAR_AGO = "年前";
+    private static final String ONE_SECOND_AGO = "Seconds ago";
+    private static final String ONE_MINUTE_AGO = "minutes ago";
+    private static final String ONE_HOUR_AGO = "An hour ago";
+    private static final String ONE_DAY_AGO = "Days ago";
+    private static final String ONE_MONTH_AGO = "Month ago";
+    private static final String ONE_YEAR_AGO = "Years ago";
 
     private static SimpleDateFormat sdf = new SimpleDateFormat();
     public final static String FORMAT_DATE_TIME = "yyyy-MM-dd HH:mm:ss.SSS";
@@ -105,7 +105,7 @@ public class FormatUtils {
             return (hours <= 0 ? 1 : hours) + ONE_HOUR_AGO;
         }
         if (delta < 48L * ONE_HOUR) {
-            return "昨天";
+            return "yesterday";
         }
         if (delta < 30L * ONE_DAY) {
             long days = toDays(delta);
@@ -146,11 +146,11 @@ public class FormatUtils {
 
     public static String formatWordCount(int wordCount) {
         if (wordCount / 10000 > 0) {
-            return (int) ((wordCount / 10000f) + 0.5) + "万字";
+            return (int) ((wordCount / 10000f) + 0.5) + "Million words";
         } else if (wordCount / 1000 > 0) {
-            return (int) ((wordCount / 1000f) + 0.5) + "千字";
+            return (int) ((wordCount / 1000f) + 0.5) + "Thousand words";
         } else {
-            return wordCount + "字";
+            return wordCount + "word";
         }
     }
 }

@@ -43,7 +43,7 @@
             android:layout_marginBottom="10dp"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="此单在手，书荒不再有！"
+            android:text="This single is in hand, the book is no longer there！"
             android:textColor="@color/common_h1"
             android:textSize="16sp" />
 
@@ -55,7 +55,7 @@
             android:layout_marginBottom="10dp"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="选择"
+            android:text="select"
             android:textColor="@color/common_h2"
             android:textSize="13sp" />
 
@@ -67,7 +67,7 @@
             android:layout_marginBottom="10dp"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="应有尽有！注：随时有可能添加新书"
+            android:text="Everything is there! Note: It is possible to add new books at any time."
             android:textColor="@color/common_h2"
             android:textSize="13sp" />
 

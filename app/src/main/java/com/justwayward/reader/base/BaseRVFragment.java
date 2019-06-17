@@ -115,7 +115,7 @@ public abstract class BaseRVFragment<T1 extends BaseContract.BasePresenter, T2> 
         }
         mAdapter.pauseMore();
         mRecyclerView.setRefreshing(false);
-        mRecyclerView.showTipViewAndDelayClose("似乎没有网络哦");
+        mRecyclerView.showTipViewAndDelayClose("There seems to be no network.");
     }
 
     @Override

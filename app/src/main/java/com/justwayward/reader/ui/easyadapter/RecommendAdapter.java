@@ -74,7 +74,7 @@ public class RecommendAdapter extends RecyclerArrayAdapter<Recommend.RecommendBo
                         double progress = ((double) SettingManager.getInstance().getReadProgress(item._id)[2]) / fileLen;
                         NumberFormat fmt = NumberFormat.getPercentInstance();
                         fmt.setMaximumFractionDigits(2);
-                        holder.setText(R.id.tvRecommendShort, "当前阅读进度：" + fmt.format(progress));
+                        holder.setText(R.id.tvRecommendShort, "Current reading progress：" + fmt.format(progress));
                     }
                 } else if (!SettingManager.getInstance().isNoneCover()) {
                     holder.setRoundImageUrl(R.id.ivRecommendCover, Constant.IMG_BASE_URL + item.cover,

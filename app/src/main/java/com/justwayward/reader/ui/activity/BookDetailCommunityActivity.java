@@ -140,8 +140,8 @@ public class BookDetailCommunityActivity extends BaseActivity {
     private void showSortDialog() {
         int checked = select[mViewPager.getCurrentItem()];
         dialog = new AlertDialog.Builder(this)
-                .setTitle("排序")
-                .setSingleChoiceItems(new String[]{"默认排序", "最新发布", "最多评论"},
+                .setTitle("Sort")
+                .setSingleChoiceItems(new String[]{"Default sort", "Latest release", "Most comments"},
                         checked, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -164,7 +164,7 @@ public class BookDetailCommunityActivity extends BaseActivity {
                                 dialog.dismiss();
                             }
                         })
-                .setNegativeButton("取消", null)
+                .setNegativeButton("cancel", null)
                 .create();
         dialog.show();
     }

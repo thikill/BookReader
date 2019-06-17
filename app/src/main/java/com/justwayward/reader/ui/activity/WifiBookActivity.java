@@ -78,7 +78,7 @@ public class WifiBookActivity extends BaseActivity {
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("WiFi传书");
+        mCommonToolbar.setTitle("WiFi book");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 
@@ -98,7 +98,7 @@ public class WifiBookActivity extends BaseActivity {
             // 启动wifi传书服务器
             ServerRunner.startServer(mBookApi);
         } else {
-            mTvWifiIp.setText("请开启Wifi并重试");
+            mTvWifiIp.setText("Please turn on Wifi and try again");
             tvRetry.setVisibility(View.VISIBLE);
         }
     }
@@ -118,15 +118,15 @@ public class WifiBookActivity extends BaseActivity {
     public void onBackPressed() {
         if (ServerRunner.serverIsRunning) {
             new AlertDialog.Builder(this)
-                    .setTitle("提示")
-                    .setMessage("确定要关闭？Wifi传书将会中断！")
-                    .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    .setTitle("prompt")
+                    .setMessage("Are you sure you want to close? Wifi book transfer will be interrupted!")
+                    .setPositiveButton("determine", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.dismiss();
                             finish();
                         }
-                    }).setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                    }).setNegativeButton("cancel", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();

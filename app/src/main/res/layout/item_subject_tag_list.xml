@@ -28,7 +28,7 @@
         android:id="@+id/tvTagName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="武侠"
+        android:text="Martial arts"
         android:textColor="@color/common_h2"
         android:textSize="16dp" />
 

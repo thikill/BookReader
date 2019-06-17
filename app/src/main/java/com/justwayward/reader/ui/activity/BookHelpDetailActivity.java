@@ -121,7 +121,7 @@ public class BookHelpDetailActivity extends BaseRVActivity<CommentList.CommentsB
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("书荒互助区详情");
+        mCommonToolbar.setTitle("Book Waste Area");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 

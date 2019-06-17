@@ -44,7 +44,7 @@
             android:layout_toRightOf="@id/ivBookCover"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="我就是静静"
+            android:text="I am quiet."
             android:textColor="@color/light_coffee"
             android:textSize="13sp" />
 
@@ -57,7 +57,7 @@
             android:layout_toRightOf="@id/ivBookCover"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="昨天"
+            android:text="yesterday"
             android:textColor="@color/common_h3" />
 
     </RelativeLayout>
@@ -100,7 +100,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingTop="5dp"
-            android:text="同感"
+            android:text="Same feeling"
             android:textColor="@color/colorPrimary"
             android:textSize="12dp" />
 

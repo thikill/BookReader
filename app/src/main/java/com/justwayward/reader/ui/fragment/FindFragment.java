@@ -59,9 +59,9 @@ public class FindFragment extends BaseFragment implements OnRvItemClickListener<
     @Override
     public void initDatas() {
         mList.clear();
-        mList.add(new FindBean("排行榜", R.drawable.home_find_rank));
-        mList.add(new FindBean("主题书单", R.drawable.home_find_topic));
-        mList.add(new FindBean("分类", R.drawable.home_find_category));
+        mList.add(new FindBean("Leaderboard", R.drawable.home_find_rank));
+        mList.add(new FindBean("Theme book", R.drawable.home_find_topic));
+        mList.add(new FindBean("classification", R.drawable.home_find_category));
     }
 
     @Override

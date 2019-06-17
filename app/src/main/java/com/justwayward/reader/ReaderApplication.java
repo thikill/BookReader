@@ -112,9 +112,9 @@ public class ReaderApplication extends Application {
         initparam.addParam(InitParam.LogParam.PARAM_KEY_LOG_LEVEL, "5");
         int errCode = HciCloudSys.hciInit(initparam.getStringConfig(), this);
         if (errCode != HciErrorCode.HCI_ERR_NONE) {
-            LogUtils.e("HciCloud初始化失败" + errCode);
+            LogUtils.e("HciCloud initialization failed" + errCode);
             return;
         }
-        LogUtils.e("HciCloud初始化成功");
+        LogUtils.e("HciCloud initialized successfully");
     }
 }

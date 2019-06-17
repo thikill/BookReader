@@ -83,7 +83,7 @@
             android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="微博"
+            android:text="Weibo"
             android:textColor="@color/white" />
 
         <TextView
@@ -93,7 +93,7 @@
             android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="微信"
+            android:text="WeChat"
             android:textColor="@color/white" />
     </LinearLayout>
 

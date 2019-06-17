@@ -20,6 +20,6 @@
     <item
         android:id="@+id/action_sort"
         android:icon="@drawable/ic_action_post_sort"
-        android:title="排序"
+        android:title="Sort"
         app:showAsAction="always" />
 </menu>

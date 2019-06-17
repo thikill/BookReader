@@ -82,11 +82,11 @@ public class DeviceUtils {
 
         if (np != null) {
             if (np.equals(CMCC_ISP) || np.equals(CMCC2_ISP)) {
-                teleCompany = "中国移动";
+                teleCompany = "China Mobile";
             } else if (np.startsWith(CU_ISP)) {
-                teleCompany = "中国联通";
+                teleCompany = "China Unicom";
             } else if (np.startsWith(CT_ISP)) {
-                teleCompany = "中国电信";
+                teleCompany = "China Telecom";
             }
         }
         return teleCompany;

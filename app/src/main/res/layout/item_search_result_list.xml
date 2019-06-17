@@ -43,7 +43,7 @@
             android:layout_marginBottom="10dp"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="武侠世界自由行"
+            android:text="Martial arts world free travel"
             android:textColor="@color/common_h1"
             android:textSize="16sp" />
 
@@ -54,7 +54,7 @@
             android:layout_below="@id/tvBookListTitle"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="549人在追 | "
+            android:text="549 people are chasing | "
             android:textColor="@color/common_h2"
             android:textSize="13sp" />
 
@@ -66,7 +66,7 @@
             android:layout_toRightOf="@id/tvLatelyFollower"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="60.1%读者留存 | "
+            android:text="60.1% of readers keep | "
             android:textColor="@color/common_h2"
             android:textSize="13sp" />
 
@@ -78,7 +78,7 @@
             android:layout_toRightOf="@id/tvRetentionRatio"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="大江入海著"
+            android:text="Dajiang into the sea"
             android:textColor="@color/common_h2"
             android:textSize="13sp" />
 

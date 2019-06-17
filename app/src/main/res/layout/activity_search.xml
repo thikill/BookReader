@@ -63,7 +63,7 @@
             android:id="@+id/tvSearchHistory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="搜索历史"
+            android:text="search history"
             android:textColor="@color/common_h1"
             android:textSize="14dp" />
 
@@ -78,7 +78,7 @@
             android:drawablePadding="5dp"
             android:enabled="true"
             android:padding="3dp"
-            android:text="清空"
+            android:text="Empty"
             android:textColor="@drawable/delete_text_selector" />
 
         <ListView

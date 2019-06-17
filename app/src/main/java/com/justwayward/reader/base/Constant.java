@@ -198,18 +198,18 @@ public class Constant {
     }};
 
     public static Map<String, String> bookType = new HashedMap<String, String>() {{
-        put("qt", "其他");
-        put(BookType.XHQH, "玄幻奇幻");
-        put(BookType.WXXX, "武侠仙侠");
-        put(BookType.DSYN, "都市异能");
-        put(BookType.LSJS, "历史军事");
-        put(BookType.YXJJ, "游戏竞技");
-        put(BookType.KHLY, "科幻灵异");
-        put(BookType.CYJK, "穿越架空");
-        put(BookType.HMZC, "豪门总裁");
-        put(BookType.XDYQ, "现代言情");
-        put(BookType.GDYQ, "古代言情");
-        put(BookType.HXYQ, "幻想言情");
-        put(BookType.DMTR, "耽美同人");
+        put("qt", "other");
+        put(BookType.XHQH, "Fantasy fantasy");
+        put(BookType.WXXX, "Martial arts");
+        put(BookType.DSYN, "Urban power");
+        put(BookType.LSJS, "Historical military");
+        put(BookType.YXJJ, "Game competition");
+        put(BookType.KHLY, "Science fiction");
+        put(BookType.CYJK, "Crossing overhead");
+        put(BookType.HMZC, "President of the giants");
+        put(BookType.XDYQ, "Modern romance");
+        put(BookType.GDYQ, "Ancient romance");
+        put(BookType.HXYQ, "Fantasy romance");
+        put(BookType.DMTR, "Amami Dojin");
     }};
 }

@@ -33,7 +33,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="15dp"
         android:layout_toRightOf="@+id/ivRankCover"
-        android:text="xxxx" />
+        android:text="xxxx pending" />
 
     <ImageView
         android:id="@+id/ivRankArrow"

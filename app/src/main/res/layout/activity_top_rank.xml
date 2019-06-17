@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="男生"
+                android:text="Boy"
                 android:textColor="@color/common_h1"
                 android:textSize="18dp" />
 
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="女生"
+                android:text="Girl"
                 android:textColor="@color/common_h1"
                 android:textSize="18dp" />
 

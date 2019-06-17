@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="网络连接失败..."
+            android:text="Network connection failed..."
             android:textColor="@color/common_h2" />
     </LinearLayout>
 </RelativeLayout>

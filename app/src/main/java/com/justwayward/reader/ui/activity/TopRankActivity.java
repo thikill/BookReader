@@ -75,7 +75,7 @@ public class TopRankActivity extends BaseActivity implements TopRankContract.Vie
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("排行榜");
+        mCommonToolbar.setTitle("Leaderboard");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 
@@ -117,7 +117,7 @@ public class TopRankActivity extends BaseActivity implements TopRankContract.Vie
             }
         }
         if (collapse.size() > 0) {
-            maleGroups.add(new RankingList.MaleBean("别人家的排行榜"));
+            maleGroups.add(new RankingList.MaleBean("Leader's list"));
             maleChilds.add(collapse);
         }
         maleAdapter.notifyDataSetChanged();
@@ -135,7 +135,7 @@ public class TopRankActivity extends BaseActivity implements TopRankContract.Vie
             }
         }
         if (collapse.size() > 0) {
-            femaleGroups.add(new RankingList.MaleBean("别人家的排行榜"));
+            femaleGroups.add(new RankingList.MaleBean("Leader's list"));
             femaleChilds.add(collapse);
         }
         femaleAdapter.notifyDataSetChanged();

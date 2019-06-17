@@ -67,7 +67,7 @@ public class BookSourceActivity extends BaseRVActivity<BookSource> implements Bo
     @Override
     public void initToolBar() {
         bookId = getIntent().getStringExtra(INTENT_BOOK_ID);
-        mCommonToolbar.setTitle("选择来源");
+        mCommonToolbar.setTitle("Select source");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 
@@ -82,7 +82,7 @@ public class BookSourceActivity extends BaseRVActivity<BookSource> implements Bo
         mPresenter.getBookSource("summary", bookId);
 
         new AlertDialog.Builder(this)
-                .setMessage("换源功能暂未实现，后续更新...")
+                .setMessage("The source change function has not been implemented yet, and subsequent updates...")
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

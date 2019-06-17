@@ -52,11 +52,11 @@ public class CommunityFragment extends BaseFragment implements OnRvItemClickList
     @Override
     public void initDatas() {
         mList.clear();
-        mList.add(new FindBean("综合讨论区", R.drawable.discuss_section));
-        mList.add(new FindBean("书评区", R.drawable.comment_section));
-        mList.add(new FindBean("书荒互助区", R.drawable.helper_section));
-        mList.add(new FindBean("女生区", R.drawable.girl_section));
-        mList.add(new FindBean("原创区",R.drawable.yuanchuang));
+        mList.add(new FindBean("Comprehensive discussion area", R.drawable.discuss_section));
+        mList.add(new FindBean("Book review area", R.drawable.comment_section));
+        mList.add(new FindBean("Book and mutual aid zone", R.drawable.helper_section));
+        mList.add(new FindBean("Female area", R.drawable.girl_section));
+        mList.add(new FindBean("Original area",R.drawable.yuanchuang));
     }
 
     @Override

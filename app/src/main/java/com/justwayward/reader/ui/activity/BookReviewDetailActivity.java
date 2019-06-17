@@ -135,7 +135,7 @@ public class BookReviewDetailActivity extends BaseRVActivity<CommentList.Comment
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("书评详情");
+        mCommonToolbar.setTitle("Book review details");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 

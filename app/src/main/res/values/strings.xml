@@ -14,117 +14,117 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string name="app_name">任阅</string>
+    <string name="app_name">review </string>
 
-    <string name="add_tag">Add Tag</string>
+        <string name="add_tag">Add Tag</string>
 
-    <!--搜索相关-->
-    <string name="search">搜索</string>
-    <string name="search_hot_search">大家都在搜</string>
-    <string name="search_change_a_lot">换一批</string>
-    <string name="search_result_lately_follower">"%1$d人在追 |&#160;"</string>
-    <string name="search_result_retention_ratio">"%1$s%%读者留存 |&#160;"</string>
-    <string name="search_result_author">%1$s著</string>
+        <!--Search related-->
+        <string name="search">search</string>
+        <string name="search_hot_search">Everyone is searching </string>
+        <string name="search_change_a_lot">change a batch </string>
+        <string name="search_result_lately_follower">"%1$d people are chasing | "</string>
+        <string name="search_result_retention_ratio">"%1$s%%Reader Retention | "</string>
+        <string name="search_result_author">%1$s </string>
 
-    <!--书籍详情相关-->
-    <string name="book_detail">书籍详情</string>
-    <string name="book_detail_author">%1$s</string>
-    <string name="book_detail_category"> &#160;|&#160;%1$s |&#160;</string>
-    <string name="book_detail_user_lv">&#160;lv.%1$d</string>
-    <string name="book_detail_remove_collection">不追了</string>
-    <string name="book_detail_join_collection">追更新</string>
-    <string name="book_detail_retention_ratio">%1$s%%</string>
-    <string name="book_detail_hot_reviews">热门书评</string>
-    <string name="book_detail_community">%1$s的社区</string>
-    <string name="book_detail_post_count">共有%1$d个帖子</string>
-    <string name="book_detail_recommend_book_list">推荐书单</string>
-    <string name="book_detail_recommend_book_list_book_count">共%1$d本书 |&#160;</string>
-    <string name="book_detail_recommend_book_list_collector_count">%1$d人收藏</string>
-    <string name="book_detail_is_joined_the_book_shelf">是否将《%1$s》加入书架</string>
-    <string name="book_detail_has_joined_the_book_shelf">《%1$s》成功加入书架</string>
-    <string name="book_detail_has_remove_the_book_shelf">已移除《%1$s》</string>
+        <!--Book details related-->
+        <string name="book_detail">Book Details </string>
+        <string name="book_detail_author">%1$s</string>
+        <string name="book_detail_category"> | %1$s | </string>
+        <string name="book_detail_user_lv"> lv.%1$d</string>
+        <string name="book_detail_remove_collection"> not chased </string>
+        <string name="book_detail_join_collection"> pursue update </string>
+        <string name="book_detail_retention_ratio">%1$s%%</string>
+        <string name="book_detail_hot_reviews">Popular Book Review </string>
+        <string name="book_detail_community">%1$s community</string>
+        <string name="book_detail_post_count">Total %1$d posts</string>
+        <string name="book_detail_recommend_book_list">Recommended list </string>
+        <string name="book_detail_recommend_book_list_book_count">Total %1$d book | </string>
+        <string name="book_detail_recommend_book_list_collector_count">%1$d people collection </string>
+        <string name="book_detail_is_joined_the_book_shelf">Whether "%1$s" is added to the bookshelf</string>
+        <string name="book_detail_has_joined_the_book_shelf"> "%1$s" successfully joined the bookshelf</string>
+        <string name="book_detail_has_remove_the_book_shelf">%1$s has been removed</string>
 
-    <!--阅读页面相关-->
-    <string name="book_read_down">下载</string>
-    <string name="book_read_reading">朗读</string>
-    <string name="book_read_community">社区</string>
-    <string name="book_read_change_source">换源</string>
-    <string name="book_read_introduce">简介</string>
-    <string name="book_read_mode_day">夜间</string>
-    <string name="book_read_mode_day_manual_setting">日间</string>
-    <string name="book_read_mode_night_manual_setting">夜间</string>
-    <string name="book_read_feedback">反馈</string>
-    <string name="book_read_settings">设置</string>
-    <string name="book_read_download">缓存</string>
-    <string name="book_read_mark">书签</string>
-    <string name="book_read_toc">目录</string>
-    <string name="add_bookmark">新增书签</string>
-    <string name="manage_bookmark">管理</string>
-    <string name="clear_bookmark">清除</string>
-    <string name="book_read_download_error">网络异常，已取消下载</string>
-    <string name="book_read_download_complete">缓存完成，失败%1$d章</string>
-    <string name="book_read_alreday_download">已缓存过:%1$s(%2$d/%3$d)...</string>
-    <string name="book_read_download_progress">正在缓存:%1$s(%2$d/%3$d)...</string>
-    <string name="net_error">网络异常</string>
-    <string name="book_read_add_book">添书</string>
-    <string name="book_read_would_you_like_to_add_this_to_the_book_shelf">是否将本书加入书架？</string>
-    <string name="book_read_join_the_book_shelf">加入书架</string>
-    <string name="book_read_not">不了</string>
+        <!--Reading page related-->
+        <string name="book_read_down">Download </string>
+        <string name="book_read_reading">reading </string>
+        <string name="book_read_community">Community</string>
+        <string name="book_read_change_source">change source </string>
+        <string name="book_read_introduce">introduction</string>
+        <string name="book_read_mode_day">night </string>
+        <string name="book_read_mode_day_manual_setting">day </string>
+        <string name="book_read_mode_night_manual_setting"> night </string>
+        <string name="book_read_feedback">Feedback</string>
+        <string name="book_read_settings">Settings </string>
+        <string name="book_read_download">cache </string>
+        <string name="book_read_mark">bookmark </string>
+        <string name="book_read_toc">directory </string>
+        <string name="add_bookmark">Add bookmark </string>
+        <string name="manage_bookmark">Manage </string>
+        <string name="clear_bookmark">clear </string>
+        <string name="book_read_download_error">Network exception, canceled download </string>
+        <string name="book_read_download_complete">Cache completed, failed %1$d chapter </string>
+        <string name="book_read_alreday_download"> has been cached: %1$s(%2$d/%3$d)...</string>
+        <string name="book_read_download_progress"> is caching: %1$s(%2$d/%3$d)...</string>
+        <string name="net_error">network exception </string>
+        <string name="book_read_add_book">添书</string>
+        <string name="book_read_would_you_like_to_add_this_to_the_book_shelf">Do you want to add this book to the bookshelf? </string>
+        <string name="book_read_join_the_book_shelf"> join the bookshelf</string>
+        <string name="book_read_not">not </string>
 
-    <!--分类相关-->
-    <string name="category">分类</string>
-    <string name="male">男生</string>
-    <string name="female">女生</string>
-    <string name="category_book_count">%1$d本</string>
+        <!--Category related-->
+        <string name="category">classification </string>
+        <string name="male">boy </string>
+        <string name="female">girl </string>
+        <string name="category_book_count">%1$d本</string>
 
-    <string name="category_book_msg">%1$d人在追 |&#160; %2$s%%读者留存</string>
-    <string name="subject_book_msg">共%1$d本书 |&#160; %2$d人收藏</string>
+        <string name="category_book_msg">%1$d people are chasing | %2$s%% readers are kept </string>
+        <string name="subject_book_msg">Total %1$d book | %2$d人收藏</string>
 
-    <!--主题书单相关-->
-    <string name="subject_book_list">主题书单</string>
-    <string name="subject_book_list_my_book_list">我的书单</string>
-    <string name="subject_book_list_detail">书单详情</string>
-    <string name="subject_book_list_detail_book_lately_follower">%1$d&#160;人在追</string>
-    <string name="subject_book_list_detail_book_word_count">|&#160;%1$d&#160;万字</string>
+        <!--Subject related to the topic -->
+        <string name="subject_book_list">topic list </string>
+        <string name="subject_book_list_my_book_list">My book list</string>
+        <string name="subject_book_list_detail">Book Details </string>
+        <string name="subject_book_list_detail_book_lately_follower">%1$d people are chasing </string>
+        <string name="subject_book_list_detail_book_word_count">| %1$d 4 words </string>
 
-    <!--评论相关-->
-    <string name="comment_floor">%1$d楼&#160;</string>
-    <string name="comment_like_count">❤%1$d次同感</string>
-    <string name="comment_best_comment">仰望神评论</string>
-    <string name="comment_comment_count">共%1$d条评论</string>
-    <string name="comment_reply_floor">(%1$d楼)</string>
-    <string name="comment_reply_nickname">回复 %1$s</string>
+        <!--Comment related-->
+        <string name="comment_floor">%1$d floor </string>
+        <string name="comment_like_count">❤%1$d times sympathy</string>
+        <string name="comment_best_comment">Looking up to God comments</string>
+        <string name="comment_comment_count"> total %1$d comments </string>
+        <string name="comment_reply_floor"> (%1$d floor) </string>
+        <string name="comment_reply_nickname">Reply to %1$s</string>
 
-    <!--书评区相关-->
-    <string name="book_review_book_type">[%1$s]</string>
-    <string name="book_review_helpful_yes">%1$d 人推荐</string>
-    <string name="book_review_detail_helpful_yes">有用</string>
-    <string name="book_review_detail_helpful_no">无用</string>
-    <string name="book_review_detail_to_review_the_scoring">给书评打分</string>
-    <string name="book_review_detail_score">楼主打分：</string>
+        <!--Book review area related -->
+        <string name="book_review_book_type">[%1$s]</string>
+        <string name="book_review_helpful_yes">%1$d people recommend </string>
+        <string name="book_review_detail_helpful_yes"> useful</string>
+        <string name="book_review_detail_helpful_no"> useless </string>
+        <string name="book_review_detail_to_review_the_scoring">Score the book review</string>
+        <string name="book_review_detail_score">The landlord scores: </string>
 
-    <!--主页菜单-->
-    <string name="menu_main_please_login">请登录</string>
-    <string name="menu_main_my_message">我的消息</string>
-    <string name="menu_main_sync_bookshelf">同步书架</string>
-    <string name="menu_main_wifi_book">WIFI传书</string>
-    <string name="menu_main_feedback">意见反馈</string>
-    <string name="menu_main_night_mode">夜间模式</string>
-    <string name="menu_main_settings">设置</string>
-    <string name="menu_main_scan_local_book">扫描本地书籍</string>
+        <!--Home Menu-->
+        <string name="menu_main_please_login">Please login </string>
+        <string name="menu_main_my_message">My message</string>
+        <string name="menu_main_sync_bookshelf">sync bookshelf</string>
+        <string name="menu_main_wifi_book">WIFI book </string>
+        <string name="menu_main_feedback">Feedback</string>
+        <string name="menu_main_night_mode"> night mode </string>
+        <string name="menu_main_settings">Settings </string>
+        <string name="menu_main_scan_local_book">Scan local books</string>
 
-    <!--主页追书-->
-    <string name="exit_tips">再按一次退出程序</string>
-    <string name="remove_selected_book">移除所选书籍</string>
-    <string name="delete_local_cache">同时删除本地缓存</string>
-    <string name="confirm">确定</string>
-    <string name="cancel">取消</string>
-    <string name="cancel_selected_all">取消全选</string>
-    <string name="selected_all">全选</string>
-    <string name="has_not_selected_delete_book">你没有选择要删的书哦</string>
-    <string name="add_the_book_you_like">添加你喜欢的小说</string>
-    <string name="network_error_tips">加载失败，请检查网络或稍后再试</string>
-    <string name="cancle_top">取消置顶</string>
-    <string name="to_add">去添加</string>
+    <!--Homepage Book-->
+         <string name="exit_tips">Press again to exit the program</string>
+         <string name="remove_selected_book">Remove selected books </string>
+         <string name="delete_local_cache"> Also delete the local cache </string>
+         <string name="confirm">OK</string>
+         <string name="cancel">Cancel </string>
+         <string name="cancel_selected_all"> cancel all selection </string>
+         <string name="selected_all">select all </string>
+         <string name="has_not_selected_delete_book">You have not chosen the book to be deleted </string>
+         <string name="add_the_book_you_like">Add your favorite novels</string>
+         <string name="network_error_tips">Load failed, please check the network or try again later </string>
+         <string name="cancle_top">Unpin </string>
+         <string name="to_add">to add </string>
 
 </resources>

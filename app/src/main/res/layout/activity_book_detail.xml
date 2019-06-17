@@ -140,7 +140,7 @@
                         android:drawableLeft="@drawable/book_detail_info_search_img"
                         android:drawablePadding="5dp"
                         android:padding="10dp"
-                        android:text="开始阅读"
+                        android:text="Start reading"
                         android:textColor="@color/white" />
                 </LinearLayout>
 
@@ -173,7 +173,7 @@
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
                         android:singleLine="true"
-                        android:text="追书人数"
+                        android:text="Number of books"
                         android:textColor="@color/common_h2"
                         android:textSize="13sp" />
 
@@ -202,7 +202,7 @@
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
                         android:singleLine="true"
-                        android:text="读者留存率"
+                        android:text="Reader retention"
                         android:textColor="@color/common_h2"
                         android:textSize="13sp" />
 
@@ -231,7 +231,7 @@
                         android:layout_height="wrap_content"
                         android:ellipsize="end"
                         android:singleLine="true"
-                        android:text="日更新字数"
+                        android:text="Daily update word count"
                         android:textColor="@color/common_h2"
                         android:textSize="13sp" />
 
@@ -301,7 +301,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="right"
                     android:padding="15dp"
-                    android:text="更多"
+                    android:text="More"
                     android:textColor="@color/common_h2"
                     android:textSize="15sp" />
             </LinearLayout>

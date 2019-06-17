@@ -97,7 +97,7 @@ public class MainActivityPresenter extends RxPresenter<MainContract.View> implem
                 }
             }
         } else {
-            ToastUtils.showSingleToast("书架空空如也...");
+            ToastUtils.showSingleToast("The bookshelf is empty...");
             mView.syncBookShelfCompleted();
             return;
         }
@@ -116,9 +116,9 @@ public class MainActivityPresenter extends RxPresenter<MainContract.View> implem
                     public void onCompleted() {
                         mView.syncBookShelfCompleted();
                         if(isLastSyncUpdateed){
-                            ToastUtils.showSingleToast("小説已更新");
+                            ToastUtils.showSingleToast("The novel has been updated");
                         }else{
-                            ToastUtils.showSingleToast("你追的小説沒有更新");
+                            ToastUtils.showSingleToast("The novel you chase is not updated");
                         }
 
                     }

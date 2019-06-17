@@ -46,7 +46,7 @@
         android:layout_below="@+id/mIvGender"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:text="我们会根据您的喜好\n推荐相对应的小说"
+        android:text="We will recommend the corresponding novel according to your preference."
         android:textColor="@color/common_h2"
         android:textSize="11dp" />
 
@@ -58,7 +58,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:text="-请选择您的喜好-"
+        android:text="-Please choose your preference-"
         android:textColor="@color/common_h2"
         android:textSize="11dp" />
 
@@ -74,7 +74,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="男生小说"
+            android:text="Boy novel"
             android:textColor="@android:color/white"
             android:background="@drawable/bg_male_button_selector"/>
 
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_weight="1"
-            android:text="女生小说"
+            android:text="Girl novel"
             android:textColor="@android:color/white"
             android:background="@drawable/bg_female_button_selector"/>
     </LinearLayout>

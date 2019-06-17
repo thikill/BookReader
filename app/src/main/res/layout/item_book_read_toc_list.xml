@@ -29,7 +29,7 @@
         android:drawableLeft="@drawable/toc_item_icon_selector"
         android:drawablePadding="10dp"
         android:padding="10dp"
-        android:text="1.第一章 八十大寿"
+        android:text="11. The first chapter of the eighty birthday"
         android:textColor="@color/light_black"
         android:textSize="16sp" />
 

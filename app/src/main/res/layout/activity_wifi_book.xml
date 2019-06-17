@@ -40,7 +40,7 @@
         android:layout_below="@+id/iv_pc_and_phone"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="请在电脑浏览器的地址栏输入"
+        android:text="Please enter in the address bar of your computer browser"
         android:textSize="12dp" />
 
     <TextView
@@ -65,7 +65,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/bg_wifi_name_shape"
         android:padding="10dp"
-        android:text="重试"
+        android:text="Retry"
         android:visibility="gone" />
 
     <LinearLayout
@@ -81,7 +81,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:gravity="center"
-            android:text="确保您的电脑和手机在同一局域网，\nWiFi传书过程中不要关闭此页面哦" />
+            android:text="Make sure your computer and mobile phone are on the same LAN, don't close this page during the \nWiFi book transfer process." />
 
         <TextView
             android:id="@+id/mTvWifiName"

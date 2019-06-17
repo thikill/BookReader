@@ -246,12 +246,12 @@ public class RecommendFragment extends BaseRVFragment<RecommendPresenter, Recomm
                             break;
                         case 2:
                             //移入养肥区
-                            mRecyclerView.showTipViewAndDelayClose("正在拼命开发中...");
+                            mRecyclerView.showTipViewAndDelayClose("Is working hard in development...");
                             break;
                         case 3:
                             //缓存全本
                             if (mAdapter.getItem(position).isFromSD) {
-                                mRecyclerView.showTipViewAndDelayClose("本地文件不支持该选项哦");
+                                mRecyclerView.showTipViewAndDelayClose("Local files do not support this option.");
                             } else {
                                 showDialog();
                                 mPresenter.getTocList(mAdapter.getItem(position)._id);
@@ -318,7 +318,7 @@ public class RecommendFragment extends BaseRVFragment<RecommendPresenter, Recomm
                             @Override
                             protected void onPostExecute(String s) {
                                 super.onPostExecute(s);
-                                mRecyclerView.showTipViewAndDelayClose("成功移除书籍");
+                                mRecyclerView.showTipViewAndDelayClose("Successfully removed books");
                                 for (Recommend.RecommendBooks bean : removeList) {
                                     mAdapter.remove(bean);
                                 }

@@ -51,7 +51,7 @@ public class GirlBookDiscussionActivity extends BaseCommuniteActivity {
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("女生区");
+        mCommonToolbar.setTitle("Female area");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 

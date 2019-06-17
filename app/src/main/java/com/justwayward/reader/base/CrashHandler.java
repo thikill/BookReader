@@ -90,12 +90,12 @@ public class CrashHandler implements UncaughtExceptionHandler {
             mDefaultHandler.uncaughtException(thread, ex);
         } else {
             DownloadBookService.cancel(); // 取消任务
-            LogUtils.i("取消下载任务");
+            LogUtils.i("Cancel download task");
             new Thread(new Runnable() {
                 @Override
                 public void run() {
                     Looper.prepare();
-                    ToastUtils.showSingleToast("哎呀，程序发生异常啦...");
+                    ToastUtils.showSingleToast("Oops, the program is abnormal....");
                     Looper.loop();
                 }
             }).start();

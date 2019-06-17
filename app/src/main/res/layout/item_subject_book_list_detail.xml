@@ -134,7 +134,7 @@
                 android:layout_marginLeft="10dp"
                 android:ellipsize="end"
                 android:maxLines="10"
-                android:text="00000"
+                android:text="00000 pending"
                 android:textColor="@color/common_h2" />
 
         </LinearLayout>

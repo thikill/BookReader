@@ -59,9 +59,9 @@ public class BookDiscussionActivity extends BaseCommuniteActivity {
     public void initToolBar() {
         mIsDiscussion = getIntent().getBooleanExtra(INTENT_DIS, false);
         if (mIsDiscussion) {
-            mCommonToolbar.setTitle("综合讨论区");
+            mCommonToolbar.setTitle("Comprehensive discussion area");
         } else {
-            mCommonToolbar.setTitle("原创区");
+            mCommonToolbar.setTitle("Original area");
         }
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }

@@ -45,7 +45,7 @@
             android:layout_toRightOf="@id/ivAuthorAvatar"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="我就是静静"
+            android:text="I am quiet."
             android:textColor="@color/light_coffee"
             android:textSize="13sp" />
 
@@ -58,7 +58,7 @@
             android:layout_toRightOf="@id/ivAuthorAvatar"
             android:ellipsize="end"
             android:singleLine="true"
-            android:text="昨天"
+            android:text="yesterday"
             android:textColor="@color/common_h3" />
 
     </RelativeLayout>

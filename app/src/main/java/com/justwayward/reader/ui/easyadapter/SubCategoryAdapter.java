@@ -52,7 +52,7 @@ public class SubCategoryAdapter extends RecyclerArrayAdapter<BooksByCats.BooksBe
                 }
 
                 holder.setText(R.id.tvSubCateTitle, item.title)
-                        .setText(R.id.tvSubCateAuthor, (item.author == null ? "未知" : item.author) + " | " + (item.majorCate == null ? "未知" : item.majorCate))
+                        .setText(R.id.tvSubCateAuthor, (item.author == null ? "unknown" : item.author) + " | " + (item.majorCate == null ? "unknown" : item.majorCate))
                         .setText(R.id.tvSubCateShort, item.shortIntro)
                         .setText(R.id.tvSubCateMsg, String.format(mContext.getResources().getString(R.string.category_book_msg),
                                 item.latelyFollower,

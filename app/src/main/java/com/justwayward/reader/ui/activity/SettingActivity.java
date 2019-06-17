@@ -71,7 +71,7 @@ public class SettingActivity extends BaseActivity {
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("设置");
+        mCommonToolbar.setTitle("Setting");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 
@@ -111,7 +111,7 @@ public class SettingActivity extends BaseActivity {
     @OnClick(R.id.bookshelfSort)
     public void onClickBookShelfSort() {
         new AlertDialog.Builder(mContext)
-                .setTitle("书架排序方式")
+                .setTitle("Book sorting")
                 .setSingleChoiceItems(getResources().getStringArray(R.array.setting_dialog_sort_choice),
                         SharedPreferencesUtil.getInstance().getBoolean(Constant.ISBYUPDATESORT, true) ? 0 : 1,
                         new DialogInterface.OnClickListener() {
@@ -129,7 +129,7 @@ public class SettingActivity extends BaseActivity {
     @OnClick(R.id.rlFlipStyle)
     public void onClickFlipStyle() {
         new AlertDialog.Builder(mContext)
-                .setTitle("阅读页翻页效果")
+                .setTitle("Reading page turning effect")
                 .setSingleChoiceItems(getResources().getStringArray(R.array.setting_dialog_style_choice),
                         SharedPreferencesUtil.getInstance().getInt(Constant.FLIP_STYLE, 0),
                         new DialogInterface.OnClickListener() {
@@ -153,15 +153,15 @@ public class SettingActivity extends BaseActivity {
         //默认不勾选清空书架列表，防手抖！！
         final boolean selected[] = {true, false};
         new AlertDialog.Builder(mContext)
-                .setTitle("清除缓存")
+                .setTitle("clear cache")
                 .setCancelable(true)
-                .setMultiChoiceItems(new String[]{"删除阅读记录", "清空书架列表"}, selected, new DialogInterface.OnMultiChoiceClickListener() {
+                .setMultiChoiceItems(new String[]{"Delete reading history", "Empty bookshelf list"}, selected, new DialogInterface.OnMultiChoiceClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which, boolean isChecked) {
                         selected[which] = isChecked;
                     }
                 })
-                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                .setPositiveButton("determine", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         new Thread(new Runnable() {
@@ -181,7 +181,7 @@ public class SettingActivity extends BaseActivity {
                         dialog.dismiss();
                     }
                 })
-                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                .setNegativeButton("cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();

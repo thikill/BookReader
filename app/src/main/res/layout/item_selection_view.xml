@@ -20,5 +20,5 @@
     android:layout_height="wrap_content"
     android:gravity="left|center_vertical"
     android:padding="10dp"
-    android:text="haha"
+    android:text="haha pending"
     android:textColor="@color/common_h2" />

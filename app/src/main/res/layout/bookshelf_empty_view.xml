@@ -41,7 +41,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
-            android:text="添加你喜爱的小说"
+            android:text="Add your favorite novels"
             android:textColor="@color/common_h2"
             android:textSize="16sp"/>
 

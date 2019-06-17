@@ -118,7 +118,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:button="@drawable/volume_checkbox_selector"
-            android:text="音量键翻页"
+            android:text="Volume key page"
             android:textColor="@color/common_h3"
             android:textSize="14dp" />
 
@@ -128,7 +128,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:button="@drawable/volume_checkbox_selector"
-            android:text="自动调整亮度"
+            android:text="Automatic brightness adjustment"
             android:textColor="@color/common_h3"
             android:textSize="14dp" />
 

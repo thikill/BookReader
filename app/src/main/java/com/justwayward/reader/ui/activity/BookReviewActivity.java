@@ -51,7 +51,7 @@ public class BookReviewActivity extends BaseCommuniteActivity {
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("书评区");
+        mCommonToolbar.setTitle("Book review area");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 

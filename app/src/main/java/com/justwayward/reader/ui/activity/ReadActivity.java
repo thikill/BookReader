@@ -537,7 +537,7 @@ public class ReadActivity extends BaseActivity implements BookReadContract.View 
     @OnClick(R.id.tvBookReadReading)
     public void readBook() {
         gone(rlReadAaSet, rlReadMark);
-        ToastUtils.showToast("正在拼命开发中...");
+        ToastUtils.showToast("Is working hard in development...");
     }
 
 
@@ -611,8 +611,8 @@ public class ReadActivity extends BaseActivity implements BookReadContract.View 
     public void downloadBook() {
         gone(rlReadAaSet);
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("缓存多少章？")
-                .setItems(new String[]{"后面五十章", "后面全部", "全部"}, new DialogInterface.OnClickListener() {
+        builder.setTitle("How many chapters are cached？")
+                .setItems(new String[]{"The last fifty chapters", "All behind", "All"}, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         switch (which) {
@@ -713,10 +713,10 @@ public class ReadActivity extends BaseActivity implements BookReadContract.View 
         }
         mark.desc = mPageWidget.getHeadLine();
         if (SettingManager.getInstance().addBookMark(bookId, mark)) {
-            ToastUtils.showSingleToast("添加书签成功");
+            ToastUtils.showSingleToast("Bookmark added successfully");
             updateMark();
         } else {
-            ToastUtils.showSingleToast("书签已存在");
+            ToastUtils.showSingleToast("Bookmark already exists");
         }
     }
 
@@ -732,7 +732,7 @@ public class ReadActivity extends BaseActivity implements BookReadContract.View 
                         mPageWidget.setPosition(new int[]{mark.chapter, mark.startPos, mark.endPos});
                         hideReadBar();
                     } else {
-                        ToastUtils.showSingleToast("书签无效");
+                        ToastUtils.showSingleToast("Invalid bookmark");
                     }
                 }
             });

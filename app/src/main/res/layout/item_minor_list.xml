@@ -33,7 +33,7 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="15dp"
-            android:text="XXXX"
+            android:text="XXXX pending"
             android:textColor="@color/common_h1"
             android:textSize="16sp" />
 

@@ -91,7 +91,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingTop="5dp"
-            android:text="分享"
+            android:text="share it"
             android:textColor="@color/colorAccent" />
 
     </RelativeLayout>

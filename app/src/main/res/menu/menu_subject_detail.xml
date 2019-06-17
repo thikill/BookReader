@@ -21,6 +21,6 @@
     <item
         android:id="@+id/menu_collect"
         android:orderInCategory="80"
-        android:title="收藏"
+        android:title="Collection"
         app:showAsAction="always" />
 </menu>

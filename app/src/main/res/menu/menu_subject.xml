@@ -21,12 +21,12 @@
     <item
         android:id="@+id/menu_tags"
         android:orderInCategory="80"
-        android:title="筛选"
+        android:title="filter"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/menu_my_book_list"
         android:orderInCategory="80"
-        android:title="我的书单"
+        android:title="My book list"
         app:showAsAction="always" />
 </menu>

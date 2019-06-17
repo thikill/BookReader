@@ -96,14 +96,14 @@ public class CacheManager {
         for (BookLists.BookListsBean data : list) {
             if (data != null) {
                 if (TextUtils.equals(data._id, bean._id)) {
-                    ToastUtils.showToast("已经收藏过啦");
+                    ToastUtils.showToast("I have a collection of over it");
                     return;
                 }
             }
         }
         list.add(bean);
         ACache.get(ReaderApplication.getsInstance()).put(getCollectionKey(), (Serializable) list);
-        ToastUtils.showToast("收藏成功");
+        ToastUtils.showToast("Successful collection");
     }
 
     private String getCollectionKey() {

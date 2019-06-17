@@ -130,14 +130,14 @@ public class DownloadBookService extends Service {
                 }
             }
             if (exists) {
-                post(new DownloadMessage(queue.bookId, "当前缓存任务已存在", false));
+                post(new DownloadMessage(queue.bookId, "The current cache task already exists", false));
                 return;
             }
 
             // 添加到下载队列
             downloadQueues.add(queue);
             LogUtils.e("addToDownloadQueue:" + queue.bookId);
-            post(new DownloadMessage(queue.bookId, "成功加入缓存队列", false));
+            post(new DownloadMessage(queue.bookId, "Successfully joined the cache queue", false));
         }
         // 从队列顺序取出第一条下载
         if (downloadQueues.size() > 0 && !isBusy) {
@@ -218,7 +218,7 @@ public class DownloadBookService extends Service {
                     downloadQueues.clear();
                 }
                 canceled = false;
-                LogUtils.i(bookId + "缓存完成，失败" + failureCount + "章");
+                LogUtils.i(bookId + "Cache completed, failed" + failureCount + "chapter");
             }
         };
         downloadTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);

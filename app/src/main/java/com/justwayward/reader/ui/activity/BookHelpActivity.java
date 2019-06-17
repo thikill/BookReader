@@ -45,7 +45,7 @@ public class BookHelpActivity extends BaseCommuniteActivity {
 
     @Override
     public void initToolBar() {
-        mCommonToolbar.setTitle("书荒互助区");
+        mCommonToolbar.setTitle("Book and mutual aid zone");
         mCommonToolbar.setNavigationIcon(R.drawable.ab_back);
     }
 

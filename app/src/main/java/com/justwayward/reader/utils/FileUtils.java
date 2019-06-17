@@ -306,12 +306,12 @@ public class FileUtils {
         try {
             File file = new File(dirPath);
             if (file.getParentFile().exists()) {
-                LogUtils.i("----- 创建文件夹" + file.getAbsolutePath());
+                LogUtils.i("-----Create folder" + file.getAbsolutePath());
                 file.mkdir();
                 return file.getAbsolutePath();
             } else {
                 createDir(file.getParentFile().getAbsolutePath());
-                LogUtils.i("----- 创建文件夹" + file.getAbsolutePath());
+                LogUtils.i("----- Create folder" + file.getAbsolutePath());
                 file.mkdir();
             }
         } catch (Exception e) {
@@ -329,13 +329,13 @@ public class FileUtils {
     public static String createFile(File file) {
         try {
             if (file.getParentFile().exists()) {
-                LogUtils.i("----- 创建文件" + file.getAbsolutePath());
+                LogUtils.i("----- Create a file" + file.getAbsolutePath());
                 file.createNewFile();
                 return file.getAbsolutePath();
             } else {
                 createDir(file.getParentFile().getAbsolutePath());
                 file.createNewFile();
-                LogUtils.i("----- 创建文件" + file.getAbsolutePath());
+                LogUtils.i("----- Create a file" + file.getAbsolutePath());
             }
         } catch (Exception e) {
             e.printStackTrace();

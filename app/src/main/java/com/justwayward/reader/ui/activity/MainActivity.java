@@ -295,7 +295,7 @@ public class MainActivity extends BaseActivity implements MainContract.View, Log
 
     @Override
     public void loginSuccess() {
-        ToastUtils.showSingleToast("登陆成功");
+        ToastUtils.showSingleToast("Landed successfully");
     }
 
     @Override
@@ -317,7 +317,7 @@ public class MainActivity extends BaseActivity implements MainContract.View, Log
 
     @Override
     public void showError() {
-        ToastUtils.showSingleToast("同步异常");
+        ToastUtils.showSingleToast("Synchronization exception");
         dismissDialog();
     }
 
